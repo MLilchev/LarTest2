@@ -11,6 +11,28 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+//Closure function
+ Route::get('/', function () {
+    // return 'Hello, world!';
+    return view('index');
+ });
+
+ Route::get('about', function()
+ {
+     return view('about');
+ });
+
+ Route::get('products', function ()
+ {
+     return view('products');
+ });
+
+ Route::get('services', function ()
+ {
+     return view('services');
+ });
+
+
+// Calling an action inside a controller
+//Route::get('/', 'WelcomeController@index');

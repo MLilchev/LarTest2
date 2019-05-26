@@ -59,4 +59,8 @@ $response->send();
 
 $kernel->terminate($request, $response);
 
-phpinfo();
+//phpinfo();
+
+///$number = 5;
+//$number += 1;
+//$number2 = 6;
